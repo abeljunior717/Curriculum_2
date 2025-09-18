@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Vitae</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Panel izquierdo */
+    .sidebar {
+      background-color: #f9d5e5; /* Rosa pastel */
+      width: 30%;
+      padding: 2rem;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #f2a7c1;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar h2 {
+      margin: 0.5rem 0;
+      color: #b56576;
+    }
+
+    .contact-info {
+      margin-top: 1.5rem;
+      text-align: left;
+    }
+
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+
+    /* Panel derecho */
+    .main-content {
+      width: 70%;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h3 {
+      color: #b56576;
+      border-bottom: 2px solid #f2a7c1;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      margin: 0.3rem 0;
+    }
+
+    .contact-info a {
+      color: #000000;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+        color:#b56576;
+    }
+
+    /* Diseño responsivo */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      .sidebar, .main-content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Panel izquierdo -->
+  <div class="sidebar">
+    <img src="descarga.gif" alt="Foto de perfil">
+    <h2>Xitlalic Flores</h2>
+    <p><em>Ingeniera en Sistemas Computacionales</em></p>
+
+    <div class="contact-info">
+      <p><strong>📧</strong> xitlalic.1403.flores@gmail.com</p>
+      <p><strong>📞</strong> +52 498 119 8988</p>
+      <p><strong>📍</strong> Zacatecas, Mexico</p>
+      <a href="https://github.com/xitflor41"><strong>🌐</strong> www.mirepositorio.com</a>
+    </div>
+  </div>
+
+  <!-- Panel derecho -->
+  <div class="main-content">
+    <div class="section">
+      <h3>Perfil Profesional</h3>
+      <p>Soy una Ingeniera en Sistemas Computacionales con experiencia en desarrollo de software y gestión de proyectos.</p>
+    </div>
+
+    <div class="section">
+      <h3>Experiencia Laboral</h3>
+      <p><strong>SIASYM: Sistema de analisis de siembra y mercado.</strong> – Puesto (2022 - Presente)</p>
+      <p>Desarrollo de un sistema web de gestión agrícola.</p>
+
+      <p><strong>AquaSync</strong> – Puesto (2020 - 2022)</p>
+      <p>Desarrollo de una plataforma de monitoreo de recursos hídricos.</p>
+
+        <p><strong>Sistema web de Joyeria Suarez</strong> – Desarrolladora (2025)</p>
+        <p>Desarrollo de un sistema web para la gestión de inventarios y ventas.</p>
+    </div>
+
+
+
+    <div class="section">
+      <h3>Educación</h3>
+      <p><strong>ITSZN</strong> – Ingenieria en Sistemas Computacionales (2021 - 2026)</p>
+      <p><strong>INFOTEC</strong> – Curso de programacion (2025)</p>
+        <p><strong>Tecnolochicas</strong> – Instructora(2025)</p>
+    </div>
+
+    <div class="section">
+      <h3>Habilidades</h3>
+      <p>✔ Lenguajes de programación: C++, C#, JavaScript</p>
+      <p>✔ Herramientas de software: Git, Docker, Jenkins</p>
+      <p>✔ Idiomas: Español (nativo), Inglés (intermedio)</p>
+    </div>
+  </div>
+
+</body>
+</html>
